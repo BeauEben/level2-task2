@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">level2-task2</string>
+    <string name="instructions">Quiz instructions</string>
+    <string name="swipe">Swipe right for true, swipe left for false.</string>
 </resources>
