@@ -32,8 +32,10 @@
         app:layout_constraintTop_toBottomOf="@+id/qz_instructions" />
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvQuestions"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
