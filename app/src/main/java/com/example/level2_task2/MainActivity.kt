@@ -38,6 +38,8 @@ class MainActivity : AppCompatActivity() {
     private fun addQuestions(){
         questions.add(Question("A cow is an animal", true))
         questions.add(Question("An animal is a cow", false))
+        questions.add(Question("In Kotlin 'when' replaces the 'switch' operator in Java", true))
+        questions.add(Question("You swipe right for false answers in this program", false))
         questionAdapter.notifyDataSetChanged()
     }
 
